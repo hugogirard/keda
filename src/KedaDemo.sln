@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Console", "Console", "{AE076141-CD09-44AF-88BA-F2491D20724C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Functions", "Functions", "{C6E5057C-20CB-4583-B391-EBD4882B7966}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Seeder", "Seeder\Seeder.csproj", "{F02331E0-34D9-4C82-907C-04E7735052B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KedaFunction", "Functions\KedaFunction\KedaFunction.csproj", "{3FCC8311-4C99-4490-A9D0-E0C00D46025F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F02331E0-34D9-4C82-907C-04E7735052B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F02331E0-34D9-4C82-907C-04E7735052B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F02331E0-34D9-4C82-907C-04E7735052B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F02331E0-34D9-4C82-907C-04E7735052B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FCC8311-4C99-4490-A9D0-E0C00D46025F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FCC8311-4C99-4490-A9D0-E0C00D46025F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FCC8311-4C99-4490-A9D0-E0C00D46025F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FCC8311-4C99-4490-A9D0-E0C00D46025F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F02331E0-34D9-4C82-907C-04E7735052B9} = {AE076141-CD09-44AF-88BA-F2491D20724C}
+		{3FCC8311-4C99-4490-A9D0-E0C00D46025F} = {C6E5057C-20CB-4583-B391-EBD4882B7966}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1963721-EEA0-411E-82A5-8DBE084C914C}
+	EndGlobalSection
+EndGlobal

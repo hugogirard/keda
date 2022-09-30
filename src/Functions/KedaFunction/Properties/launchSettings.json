@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "KedaFunction": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7154"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 34731,
+      "useSSL": false
+    }
+  }
+}
